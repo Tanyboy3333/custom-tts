@@ -1,0 +1,10 @@
+type: web
+name: tts-api
+runtime: python
+buildCommand: "pip install -r backend/requirements.txt"
+startCommand: "python backend/app.py"
+plan: free
+region: oregon
+
+deploy:
+  autoDeploy: true
