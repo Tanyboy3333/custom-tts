@@ -1,5 +1,8 @@
-flask
+Flask
+gunicorn
 torch
 whisper
 TTS
+flask-cors
+
 
