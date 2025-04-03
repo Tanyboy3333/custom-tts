@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "https://custom-tts.onrender.com
+API_URL = "https://custom-tts.onrender.com"
 st.title("🔊 Custom TTS Voice Trainer")
 
 # **Upload Audio**
