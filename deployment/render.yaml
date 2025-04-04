@@ -2,7 +2,7 @@ type: web
 name: tts-api
 runtime: python
 buildCommand: "pip install -r backend/requirements.txt"
-startCommand: "python backend/app.py"
+startCommand: "gunicorn app:app --chdir backend --bind 0.0.0.0:$PORT"
 plan: free
 region: oregon
 
